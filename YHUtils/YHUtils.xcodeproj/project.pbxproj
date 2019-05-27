@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0D7F7E229BB3A200CAC23A /* rename.py in Resources */ = {isa = PBXBuildFile; fileRef = 2C0D7F75229BB3A200CAC23A /* rename.py */; };
+		2C0D7F80229BB3A200CAC23A /* BU2222.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D7F79229BB3A200CAC23A /* BU2222.m */; };
+		2C0D7F81229BB3A200CAC23A /* BU0000.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D7F7D229BB3A200CAC23A /* BU0000.m */; };
+		2C0D7F84229BB54500CAC23A /* BU1111.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D7F83229BB54500CAC23A /* BU1111.m */; };
 		781D745E214250F20075F33A /* README.webp_js in Resources */ = {isa = PBXBuildFile; fileRef = 781D73B6214250F20075F33A /* README.webp_js */; };
 		781D745F214250F20075F33A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 781D73B7214250F20075F33A /* README */; };
 		781D7460214250F20075F33A /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 781D73B8214250F20075F33A /* COPYING */; };
@@ -153,6 +157,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0D7F75229BB3A200CAC23A /* rename.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = rename.py; sourceTree = "<group>"; };
+		2C0D7F79229BB3A200CAC23A /* BU2222.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BU2222.m; sourceTree = "<group>"; };
+		2C0D7F7A229BB3A200CAC23A /* BU2222.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BU2222.h; sourceTree = "<group>"; };
+		2C0D7F7C229BB3A200CAC23A /* BU0000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BU0000.h; sourceTree = "<group>"; };
+		2C0D7F7D229BB3A200CAC23A /* BU0000.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BU0000.m; sourceTree = "<group>"; };
+		2C0D7F82229BB54500CAC23A /* BU1111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BU1111.h; sourceTree = "<group>"; };
+		2C0D7F83229BB54500CAC23A /* BU1111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BU1111.m; sourceTree = "<group>"; };
 		781D73B6214250F20075F33A /* README.webp_js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.webp_js; sourceTree = "<group>"; };
 		781D73B7214250F20075F33A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		781D73B8214250F20075F33A /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
@@ -377,6 +388,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0D7F74229BB3A200CAC23A /* rename */ = {
+			isa = PBXGroup;
+			children = (
+				2C0D7F75229BB3A200CAC23A /* rename.py */,
+				2C0D7F76229BB3A200CAC23A /* first */,
+				2C0D7F7C229BB3A200CAC23A /* BU0000.h */,
+				2C0D7F7D229BB3A200CAC23A /* BU0000.m */,
+			);
+			path = rename;
+			sourceTree = "<group>";
+		};
+		2C0D7F76229BB3A200CAC23A /* first */ = {
+			isa = PBXGroup;
+			children = (
+				2C0D7F82229BB54500CAC23A /* BU1111.h */,
+				2C0D7F83229BB54500CAC23A /* BU1111.m */,
+				2C0D7F78229BB3A200CAC23A /* second */,
+			);
+			path = first;
+			sourceTree = "<group>";
+		};
+		2C0D7F78229BB3A200CAC23A /* second */ = {
+			isa = PBXGroup;
+			children = (
+				2C0D7F79229BB3A200CAC23A /* BU2222.m */,
+				2C0D7F7A229BB3A200CAC23A /* BU2222.h */,
+			);
+			path = second;
+			sourceTree = "<group>";
+		};
 		781D73B5214250F20075F33A /* libwebp */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,6 +676,7 @@
 				78DA1E3520EA1631002F44A1 /* Category */,
 				78DA1E3120EA15B5002F44A1 /* Runtime */,
 				78DA1E3920EA1838002F44A1 /* SDWebImage */,
+				2C0D7F74229BB3A200CAC23A /* rename */,
 				78DA1E1A20EA14DD002F44A1 /* Main.storyboard */,
 				78DA1E1D20EA14DF002F44A1 /* Assets.xcassets */,
 				78DA1E1F20EA14DF002F44A1 /* LaunchScreen.storyboard */,
@@ -786,6 +828,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0D7F7E229BB3A200CAC23A /* rename.py in Resources */,
 				781D7461214250F20075F33A /* README.mux in Resources */,
 				781D7460214250F20075F33A /* COPYING in Resources */,
 				781D745F214250F20075F33A /* README in Resources */,
@@ -835,6 +878,7 @@
 				781D7471214250F20075F33A /* random_utils.c in Sources */,
 				781D74B1214250F20075F33A /* alpha_processing_mips_dsp_r2.c in Sources */,
 				781D74D0214250F20075F33A /* yuv_mips32.c in Sources */,
+				2C0D7F81229BB3A200CAC23A /* BU0000.m in Sources */,
 				781D74AE214250F20075F33A /* lossless_neon.c in Sources */,
 				781D74C1214250F20075F33A /* dec_sse2.c in Sources */,
 				781D74A8214250F20075F33A /* enc_mips32.c in Sources */,
@@ -850,6 +894,7 @@
 				781D74C5214250F20075F33A /* cost_mips32.c in Sources */,
 				781D7493214250F20075F33A /* webp_dec.c in Sources */,
 				781D7481214250F20075F33A /* webp_enc.c in Sources */,
+				2C0D7F84229BB54500CAC23A /* BU1111.m in Sources */,
 				781D74AA214250F20075F33A /* upsampling_sse2.c in Sources */,
 				781D746C214250F20075F33A /* quant_levels_dec_utils.c in Sources */,
 				781D746B214250F20075F33A /* quant_levels_utils.c in Sources */,
@@ -918,6 +963,7 @@
 				78DA1E6820EA1838002F44A1 /* NSData+WM_ImageContentType.m in Sources */,
 				781D74B2214250F20075F33A /* rescaler_mips_dsp_r2.c in Sources */,
 				781D748E214250F20075F33A /* tree_dec.c in Sources */,
+				2C0D7F80229BB3A200CAC23A /* BU2222.m in Sources */,
 				781D74A6214250F20075F33A /* yuv_neon.c in Sources */,
 				781D74D1214250F20075F33A /* upsampling_mips_dsp_r2.c in Sources */,
 				781D7491214250F20075F33A /* quant_dec.c in Sources */,
