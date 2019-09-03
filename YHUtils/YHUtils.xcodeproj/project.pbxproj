@@ -11,6 +11,7 @@
 		2C0D7F80229BB3A200CAC23A /* BU2222.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D7F79229BB3A200CAC23A /* BU2222.m */; };
 		2C0D7F81229BB3A200CAC23A /* BU0000.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D7F7D229BB3A200CAC23A /* BU0000.m */; };
 		2C0D7F84229BB54500CAC23A /* BU1111.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D7F83229BB54500CAC23A /* BU1111.m */; };
+		2C96C5FC231EA08C0076CD13 /* reAnyname.py in Resources */ = {isa = PBXBuildFile; fileRef = 2C96C5FB231EA08C0076CD13 /* reAnyname.py */; };
 		781D745E214250F20075F33A /* README.webp_js in Resources */ = {isa = PBXBuildFile; fileRef = 781D73B6214250F20075F33A /* README.webp_js */; };
 		781D745F214250F20075F33A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 781D73B7214250F20075F33A /* README */; };
 		781D7460214250F20075F33A /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 781D73B8214250F20075F33A /* COPYING */; };
@@ -164,6 +165,7 @@
 		2C0D7F7D229BB3A200CAC23A /* BU0000.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BU0000.m; sourceTree = "<group>"; };
 		2C0D7F82229BB54500CAC23A /* BU1111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BU1111.h; sourceTree = "<group>"; };
 		2C0D7F83229BB54500CAC23A /* BU1111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BU1111.m; sourceTree = "<group>"; };
+		2C96C5FB231EA08C0076CD13 /* reAnyname.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = reAnyname.py; sourceTree = "<group>"; };
 		781D73B6214250F20075F33A /* README.webp_js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.webp_js; sourceTree = "<group>"; };
 		781D73B7214250F20075F33A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		781D73B8214250F20075F33A /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
@@ -391,6 +393,7 @@
 		2C0D7F74229BB3A200CAC23A /* rename */ = {
 			isa = PBXGroup;
 			children = (
+				2C96C5FB231EA08C0076CD13 /* reAnyname.py */,
 				2C0D7F75229BB3A200CAC23A /* rename.py */,
 				2C0D7F76229BB3A200CAC23A /* first */,
 				2C0D7F7C229BB3A200CAC23A /* BU0000.h */,
@@ -830,6 +833,7 @@
 			files = (
 				2C0D7F7E229BB3A200CAC23A /* rename.py in Resources */,
 				781D7461214250F20075F33A /* README.mux in Resources */,
+				2C96C5FC231EA08C0076CD13 /* reAnyname.py in Resources */,
 				781D7460214250F20075F33A /* COPYING in Resources */,
 				781D745F214250F20075F33A /* README in Resources */,
 				781D745E214250F20075F33A /* README.webp_js in Resources */,
