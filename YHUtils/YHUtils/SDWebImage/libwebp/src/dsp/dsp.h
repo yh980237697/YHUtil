@@ -216,11 +216,11 @@ extern VP8IntraPreds VP8EncPredChroma8;
 
 typedef int (*VP8Metric)(const uint8_t* pix, const uint8_t* ref);
 extern VP8Metric VP8SSE16x16, VP8SSE16x8, VP8SSE8x8, VP8SSE4x4;
-typedef int (*VP8WMetric)(const uint8_t* pix, const uint8_t* ref,
+typedef int (*VP8YHetric)(const uint8_t* pix, const uint8_t* ref,
                           const uint16_t* const weights);
 // The weights for VP8TDisto4x4 and VP8TDisto16x16 contain a row-major
 // 4 by 4 symmetric matrix.
-extern VP8WMetric VP8TDisto4x4, VP8TDisto16x16;
+extern VP8YHetric VP8TDisto4x4, VP8TDisto16x16;
 
 // Compute the average (DC) of four 4x4 blocks.
 // Each sub-4x4 block #i sum is stored in dc[i].

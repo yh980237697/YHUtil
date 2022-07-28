@@ -15,10 +15,10 @@ def rename_file(rootDir):
             try:
 
                 # 文件名前缀替换
-                wm = name.index(Replace_old, 0, 3)
-                # print wm
+                yh = name.index(Replace_old, 0, 3)
+                # print yh
 
-                if wm == 0:
+                if yh == 0:
 
                     oriPath = os.getcwd()
                     os.chdir(root)
